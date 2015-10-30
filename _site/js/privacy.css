@@ -1,0 +1,22 @@
+/*  
+Template : colorone_1.0.0
+Author : Designup.jp
+Website : http://designup.jp
+Note: All content are copyrighted by author. Please, don't steal anything.
+
+プライバシーページのスタイル
+*/
+#policy .title {
+  margin: 0;
+  padding: 20px 15px;
+  border-top: 3px solid #333;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+#policy .sub_title {
+  font-size: 16px;
+}
+#policy p {
+  font-size: 12px;
+}

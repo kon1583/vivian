@@ -1,0 +1,143 @@
+---
+layout: category_archive
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body cz-shortcut-listen="true" style="">
+
+<!-- frame_outer -->
+<div class="frame_outer">
+
+	{% include header.html %}
+
+	<div class="container">
+		<div class="row">
+			<!-- main_column -->
+			<div id="main_column" class="colnum2 left col-xs-12 col-sm-8" >
+				<div class="row" >
+					<div class="col-xs-12 col-sm-12">
+						<div>
+							<!-- ranking -->
+							
+							<div class="block_outer">
+								<div id="ranking_box">
+<!-- archive -->
+<div class="main_content">
+<h1  class="block_title">{{page.category | slug2name}}</h1>
+<ul>
+  {% for post in site.posts %}
+  {% for category in post.categories %}
+  {% if category == page.category %}
+  <li class="archive_list">
+    <a class="archive_list_article_link" href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a> ( <time datetime='{{post.date | date: "%Y-%m-%d"}}'>{{post.date | date: "%m/%d/%y"}}</time> ){{post.excerpt}}
+    <p class="summary">
+    <ul class="tag_list">
+      {% for category in post.category %}
+      <li class="inline archive_list"><a class="category_list_link" href="/category/{{ category }}">{{ category | slug2name }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+
+
+</ul>
+<!-- /archive -->				
+</div>
+				
+									<div class="content_panel">
+									</div>
+								</div>
+							</div>
+							<!-- /ranking -->
+						</div>
+					</div>
+					<!-- /main -->
+				</div>
+				<!-- /row -->
+				<!-- main-img -->
+				<div id="main_top">
+					<!-- main_slider -->
+					<div><img src="http://store.vivian.jp/vivian-s/img/vivian-s/waribiki.png" /></div>
+				</div>
+				<!-- /main-img -->
+			</div>
+			<!-- /main_column -->
+
+			<!-- right_column -->
+			<div id="rightcolumn" class="side_column col-xs-12 col-sm-4" >
+				<div class="side_column col-xs-12 col-sm-12">
+				</div>
+				<div class="side_column col-xs-12 col-sm-12 infotop-side">
+				<script type="text/javascript" src="http://www.infotop.jp/click.js"></script>
+				<a href="http://xn--cck6c8a8a6fye.jp/" onClick="return clickCount(14942, 59764);"><img src="http://www.infotop.jp/img/banner4_59764.jpg" border="0" /></a>
+				</div>
+				<!-- category -->
+				<div class="side_column col-xs-12 col-sm-12">
+						
+					<div class="block_outer">
+						<div style="padding:0 0 10px 0">
+							<!-- AddThis Button BEGIN -->
+							<div class="addthis_toolbox addthis_default_style" style="margin-top:30px">
+							<a class="addthis_button_facebook"></a>
+							<a class="addthis_button_twitter"></a>
+							<a class="addthis_button_google_plusone_share"></a>
+							<a class="addthis_button_hatena"></a>
+							<a class="addthis_button_evernote"></a>
+							<a class="addthis_button_gmail"></a>
+							<a class="addthis_counter addthis_bubble_style"></a>
+							</div>
+							<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52192c7f77488cc6"></script>
+							<script type="text/javascript"> 
+							var addthis_config = {
+								 data_track_clickback: false 
+							} 
+							</script>
+							<!-- AddThis Button END -->
+							</div>
+							<div id="category_box">
+							<h2 class="side_title">カテゴリーから探す</h2>
+							<div class="box_body"><ul class="list-unstyled"><li><a href="http://store.vivian.jp/colorcon-black/">ブラック</a></li><li><a href="http://store.vivian.jp/colorcon-brown/">ブラウン</a></li><li><a href="http://store.vivian.jp/colorcon-gray/">グレー</a></li><li><a href="http://store.vivian.jp/colorcon-blue/">ブルー</a></li><li><a href="http://store.vivian.jp/colorcon-violet/">バイオレット</a></li><li><a href="http://store.vivian.jp/colorcon-green/">グリーン</a></li><li><a href="http://store.vivian.jp/colorcon-pink/">ピンク</a></li><li><a href="http://store.vivian.jp/colorcon-1month/">１ヵ月</a></li><li><a href="http://store.vivian.jp/colorcon-1day/">１day</a></li><li><a href="http://store.vivian.jp/colorcon-doari/">度あり</a></li><li><a href="http://store.vivian.jp/colorcon-donashi/">度なし</a></li><li><a href="http://store.vivian.jp/colorcon-s145/">14.5mm</a></li><li><a href="http://store.vivian.jp/colorcon-s142/">14.2mm</a></li><li><a href="http://store.vivian.jp/colorcon-s140/">14mm</a></li><li><a href="http://store.vivian.jp/colorcon-ciel/">シエルシリーズ</a></li><li><a href="http://store.vivian.jp/colorcon-marron/">マロンシリーズ</a></li><li><a href="http://store.vivian.jp/colorcon-platinum/">プラチナシリーズ</a></li><li><a href="http://store.vivian.jp/colorcon-natural/">ナチュラルシリーズ</a></li><li><a href="http://store.vivian.jp/colorcon-snatural/">スモールナチュラルシリーズ</a></li><li><a href="http://store.vivian.jp/colorcon-sweet/">スイートシリーズ</a></li><li><a href="http://store.vivian.jp/colorcon-pearl/">パールシリーズ</a></li><li><a href="http://store.vivian.jp/colorcon-jewel/">ジュエルシリーズ</a></li></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /category -->
+		
+				<!-- banner -->
+				<div class="side_column col-xs-12 col-sm-12"></div>
+				<!-- /banner -->
+			</div>
+			<!-- /right_column -->
+		
+			<!-- bottomcolumn -->
+			<div id="bottomcolumn" class="col-xs-12">
+				<div id="plg_Up_FotterGuide_box">
+					<div id="shopping_guide">
+					</div>
+				</div>
+			</div>
+			<!-- /bottomcolumn -->
+
+		</div>
+		<!-- /.row -->
+
+	</div>
+	<!-- /.container -->
+
+</div>
+<!-- /frame_outer -->
+
+{% include footer.html %}
+</div>
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

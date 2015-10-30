@@ -1,0 +1,125 @@
+/*  
+Template : colorone_1.0.0
+Author : Designup.jp
+Website : http://designup.jp
+Note: All content are copyrighted by author. Please, don't steal anything.
+
+商品詳細ページのスタイル
+*/
+/* ------------------------------------- */
+/*   products/detail  */
+/* ------------------------------------- */
+#detailphotobloc {
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  #detailphotobloc {
+    text-align: center;
+  }
+}
+#detailphotobloc .photo {
+  margin-bottom: 10px;
+}
+#detailphotobloc .photo img {
+  max-width: 100%;
+  height: 100%;
+}
+
+#detailrightbloc {
+  font-size: 12px;
+}
+#detailrightbloc .status_icon {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+#detailrightbloc .status_icon li {
+  padding: 0;
+}
+#detailrightbloc .product_code, #detailrightbloc .normal_price, #detailrightbloc .sale_price {
+  margin-bottom: 10px;
+}
+#detailrightbloc .product_code dt, #detailrightbloc .normal_price dt, #detailrightbloc .sale_price dt, #detailrightbloc .product_code dd, #detailrightbloc .normal_price dd, #detailrightbloc .sale_price dd {
+  display: inline-block;
+  font-weight: normal;
+}
+#detailrightbloc .item_title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+#detailrightbloc .normal_price {
+  margin-bottom: 5px;
+}
+#detailrightbloc .normal_price .price {
+  font-size: 14px;
+}
+#detailrightbloc .sale_price {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#detailrightbloc .sale_price .price {
+  color: #f00;
+  font-size: 14px;
+  font-weight: bold;
+}
+#detailrightbloc .quantity input {
+  display: inline-block;
+  width: 60px;
+  margin-right: 10px;
+}
+#detailrightbloc .quantity ul {
+  display: inline-block;
+}
+#detailrightbloc .quantity i {
+  font-size: 18px;
+  color: #333;
+}
+@media (max-width: 767px) {
+  #detailrightbloc .quantity i {
+    font-size: 28px;
+    vertical-align: top;
+    margin-top: -17px;
+  }
+}
+#detailrightbloc .cartin {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+@media (max-width: 767px) {
+  #detailrightbloc .cartin {
+    width: 100%;
+  }
+}
+#detailrightbloc .product_info ul {
+  margin-bottom: 15px;
+}
+#detailrightbloc .product_info ul li {
+  margin-bottom: 5px;
+}
+
+#detailmainblock {
+  margin-bottom: 60px;
+}
+#detailmainblock > .block_title {
+  padding: 15px;
+  border-top: 3px solid #333;
+  font-size: 24px;
+}
+#detailmainblock .product_exp {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+#detailmainblock .product_exp .section {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+@media (max-width: 767px) {
+  #detailmainblock .product_exp .section img {
+    width: 100%;
+  }
+}

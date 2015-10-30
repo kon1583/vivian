@@ -1,0 +1,23 @@
+/*  
+Template : colorone_1.0.0
+Author : Designup.jp
+Website : http://designup.jp
+Note: All content are copyrighted by author. Please, don't steal anything.
+
+特定商取引法ページのスタイル
+*/
+#info .title, #payment .title {
+  margin: 0;
+  padding: 20px 15px;
+  border-top: 3px solid #333;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+#info th, #payment th {
+  width: 100px;
+  background-color: #eee;
+}
+#info td img, #payment td img{
+  max-width: 100%;
+}

@@ -1,0 +1,28 @@
+# Site settings
+title: "バストアップグッズ通販"
+encoding: utf-8
+email: your-email@domain.com
+description: "バストアップグッズ通販の詳細."
+keywords: "バストアップ,豊胸,グッズ,通販"
+catch: "バストアップ・豊胸のグッズ通販"
+catch_description: " 魅惑のバストになれるグッズ情報"
+baseurl: "/blog"
+url: "http://cosmeclub1.web.fc2.com"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+#permalink: pretty
+#permalink: none
+permalink: /:categories/:title.html
+
+# category archive
+category_title_prefix: ''
+category_title_suffix: ' '
+category_dir: category
+
+category_slugs:
+    category1: "カテゴリー１"
+
+

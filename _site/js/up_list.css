@@ -1,0 +1,160 @@
+/*  
+Template : colorone_1.0.0
+Author : Designup.jp
+Website : http://designup.jp
+Note: All content are copyrighted by author. Please, don't steal anything.
+
+商品一覧ページのスタイル
+*/
+/* ------------------------------------- */
+/*   products/list  */
+/* ------------------------------------- */
+.page_list .page_title {
+  padding: 10px;
+  margin-top: 0;
+  border-top: 3px solid #333;
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.page_list .pagecond_area {
+  font-size: 12px;
+}
+
+.page_list .list_pager {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-image: -webkit-linear-gradient(bottom, rgba(120, 120, 120, 0.1), rgba(206, 206, 206, 0.1));
+  background-image: -moz-linear-gradient(bottom, rgba(120, 120, 120, 0.1), rgba(206, 206, 206, 0.1));
+  background-image: -o-linear-gradient(bottom, rgba(120, 120, 120, 0.1), rgba(206, 206, 206, 0.1));
+  background-image: linear-gradient(to top, rgba(120, 120, 120, 0.1), rgba(206, 206, 206, 0.1));
+}
+@media (max-width: 767px) {
+  .page_list .list_pager {
+    height: 90px;
+  }
+}
+.page_list .list_pager.bottom {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.page_list .list_pager ul {
+  float: right;
+  margin-right: 10px;
+}
+@media (max-width: 767px) {
+  .page_list .list_pager ul {
+    float: none;
+  }
+}
+.page_list .list_pager ul li {
+  line-height: 35px;
+  font-size: 10px;
+}
+.page_list .list_pager ul li a {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  color: #333;
+}
+.page_list .list_pager ul li a:hover {
+  text-decoration: none;
+  background-color: #eee;
+}
+@media (max-width: 767px) {
+  .page_list .list_pager ul li.sort {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+.page_list .list_pager ul li select {
+  font-size: 13px;
+  border-color: #ccc;
+}
+@media (max-width: 767px) {
+  .page_list .list_pager ul li select {
+    font-size: 16px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .page_list {
+    text-align: center;
+  }
+}
+
+.item_panel {
+  display: inline-block;
+  width: 132px;
+  min-height: 230px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+@media (max-width: 767px) {
+  .item_panel {
+    width: 130px;
+    min-height: 230px;
+  }
+}
+.item_panel .item_image {
+  position: relative;
+  width: 132px;
+  height: 165px;
+}
+@media (max-width: 767px) {
+  .item_panel .item_image {
+    width: 130px;
+    height: 165px;
+  }
+}
+.item_panel .item_image a img {
+  width: 132px;
+  height: 165px;
+}
+@media (max-width: 767px) {
+  .item_panel .item_image a img {
+    width: 130px;
+    height: 165px;
+  }
+}
+.item_panel .item_meta {
+  text-align: left;
+}
+.item_panel .item_meta .title {
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+.item_panel .item_meta .title a {
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+}
+.item_panel .item_meta .sale_price {
+  color: #000;
+  font-size: 10px;
+}
+.item_panel .item_meta .sale_price .price {
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ------------------------------------- */
+/*   search_result   */
+/* ------------------------------------- */
+.search_result {
+  padding: 8px 4px !important;
+  margin-left: 0 !important;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  background-color: #333;
+}

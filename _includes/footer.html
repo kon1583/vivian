@@ -1,0 +1,30 @@
+<div id="footer_wrap">
+	<div class="container">
+		<div id="f_category_box">
+		<div class="box_body">
+			<p>カテゴリー一覧{{site.category_title_prefix}}</p>      
+			<ul class="list-unstyled">
+			{% for category in site.categories %}
+			  <li><a href="{{site.baseurl}}/{{ category | first }}/index.html" >{{ category | first | slug2name}}</a>
+			  </li>
+			{% endfor %}
+			</ul>
+		</div>
+		</div>
+		
+		<div id="footer" class="clearfix">
+			<div id="pagetop">
+				<a href="#top">
+				<i class="fa fa-angle-up"></i>
+				</a>
+			</div>
+			<ul class="list-inline">
+				<li>
+					<a href="http://store.vivian.jp/page-tokutei/">特定商取引法に基づく表記</a>
+				</li>
+			</ul>
+			<div id="copyright">Copyright ©&nbsp;2015&nbsp;<a href="{{ site.baseurl }}/" target="_brank">{{ site.title }}</a> All rights reserved. </div>
+			<ul class="list-inline">  </ul>
+		</div>
+	</div>
+</div>
