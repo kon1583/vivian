@@ -6,7 +6,7 @@
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 	<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}" />
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}" type="text/css">
+	<link rel="stylesheet" href="{{site.github.url}}{{ "/css/style.css" | prepend: site.baseurl }}" type="text/css">
 	<link rel="stylesheet" href="{{ "/css/fontello.css" | prepend: site.baseurl }}" type="text/css">
 	<link href="{{ "/bootstrap-3.3.2-dist/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
