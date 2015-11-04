@@ -6,8 +6,8 @@ description: "バストアップグッズ通販の詳細."
 keywords: "バストアップ,豊胸,グッズ,通販"
 catch: "バストアップ・豊胸のグッズ通販"
 catch_description: " 魅惑のバストになれるグッズ情報"
-baseurl: "/blog"
-url: "http://cosmeclub1.web.fc2.com"
+baseurl: ""
+url: ""
 twitter_username: jekyllrb
 github_username:  jekyll
 
