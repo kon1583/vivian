@@ -3,10 +3,10 @@
   <channel>
     <title>バストアップグッズ通販</title>
     <description>バストアップグッズ通販の詳細.</description>
-    <link>/vivian/</link>
-    <atom:link href="/vivian/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Nov 2015 17:39:18 +0900</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2015 17:39:18 +0900</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 05 Nov 2015 17:41:00 +0900</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2015 17:41:00 +0900</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -25,8 +25,8 @@
 
 </description>
         <pubDate>Tue, 01 Dec 2015 07:08:07 +0900</pubDate>
-        <link>/vivian/jekyll/update/github2.html</link>
-        <guid isPermaLink="true">/vivian/jekyll/update/github2.html</guid>
+        <link>/jekyll/update/github2.html</link>
+        <guid isPermaLink="true">/jekyll/update/github2.html</guid>
         
         
         <category>jekyll</category>
@@ -51,8 +51,8 @@
 
 </description>
         <pubDate>Tue, 01 Dec 2015 06:08:07 +0900</pubDate>
-        <link>/vivian/jekyll/update/github.html</link>
-        <guid isPermaLink="true">/vivian/jekyll/update/github.html</guid>
+        <link>/jekyll/update/github.html</link>
+        <guid isPermaLink="true">/jekyll/update/github.html</guid>
         
         
         <category>jekyll</category>
@@ -78,8 +78,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Fri, 30 Oct 2015 15:08:07 +0900</pubDate>
-        <link>/vivian/jekyll/category1/welcome2.html</link>
-        <guid isPermaLink="true">/vivian/jekyll/category1/welcome2.html</guid>
+        <link>/jekyll/category1/welcome2.html</link>
+        <guid isPermaLink="true">/jekyll/category1/welcome2.html</guid>
         
         
         <category>jekyll</category>
@@ -105,8 +105,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Fri, 30 Oct 2015 15:08:07 +0900</pubDate>
-        <link>/vivian/jekyll/update/welcome.html</link>
-        <guid isPermaLink="true">/vivian/jekyll/update/welcome.html</guid>
+        <link>/jekyll/update/welcome.html</link>
+        <guid isPermaLink="true">/jekyll/update/welcome.html</guid>
         
         
         <category>jekyll</category>
@@ -132,8 +132,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Thu, 29 Oct 2015 15:08:07 +0900</pubDate>
-        <link>/vivian/jekyll/update/welcome-to-jekyll-2.html</link>
-        <guid isPermaLink="true">/vivian/jekyll/update/welcome-to-jekyll-2.html</guid>
+        <link>/jekyll/update/welcome-to-jekyll-2.html</link>
+        <guid isPermaLink="true">/jekyll/update/welcome-to-jekyll-2.html</guid>
         
         
         <category>jekyll</category>
@@ -158,8 +158,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Mon, 26 Oct 2015 15:08:07 +0900</pubDate>
-        <link>/vivian/jekyll/update/second.html</link>
-        <guid isPermaLink="true">/vivian/jekyll/update/second.html</guid>
+        <link>/jekyll/update/second.html</link>
+        <guid isPermaLink="true">/jekyll/update/second.html</guid>
         
         
         <category>jekyll</category>
@@ -184,8 +184,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Mon, 26 Oct 2015 15:08:07 +0900</pubDate>
-        <link>/vivian/jekyll/update/github.html</link>
-        <guid isPermaLink="true">/vivian/jekyll/update/github.html</guid>
+        <link>/jekyll/update/github.html</link>
+        <guid isPermaLink="true">/jekyll/update/github.html</guid>
         
         
         <category>jekyll</category>
@@ -216,8 +216,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Sun, 25 Oct 2015 15:08:07 +0900</pubDate>
-        <link>/vivian/jekyll/update/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/vivian/jekyll/update/welcome-to-jekyll.html</guid>
+        <link>/jekyll/update/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/jekyll/update/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
