@@ -83,6 +83,9 @@
 		</ul>
 	</div>
 </div>
+{% for tag in site.tags %}
+  {{ tag | first }}
+{% endfor %}
 							
 							<div id="category_box">
 							<h2 class="side_title">カテゴリーから探す</h2>
