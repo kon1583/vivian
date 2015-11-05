@@ -78,7 +78,7 @@
 	<div class="box_body">
 		<ul class="list-unstyled">
 		{% for post in site.posts limit:5 %}
-			<li><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></li>
+			<li><a href="{{site.github.url}}{{site.baseurl}}{{post.url}}">{{ post.title }}</a></li>
 		{% endfor %}
 		</ul>
 	</div>
