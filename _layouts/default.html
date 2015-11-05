@@ -83,9 +83,18 @@
 		</ul>
 	</div>
 </div>
-{% for tag in site.tags %}
-  {{ tag | first }}
-{% endfor %}
+
+<div id="tag_box">
+	<h2 class="main_title">タグ</h2>
+	<div class="box_body">
+	  <ul>
+		{% for tag in page.tags %}
+		<li><a href="{{site.github.url}}{{site.baseurl}}/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
+		{% endfor %}
+	  </ul>
+	</div>
+</div>
+
 							
 							<div id="category_box">
 							<h2 class="side_title">カテゴリーから探す</h2>
