@@ -3,6 +3,7 @@ layout: post
 title:  "githubでblog2"
 date:   2015-11-31 07:08:07
 categories: jekyll update
+tags : [intro, 初心者, jekyll, tutorial]
 ---
 
 ようこそ github BLOG2
